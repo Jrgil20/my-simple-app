@@ -1,1 +1,19 @@
-/* Add styles here */
+body {
+    font-family: sans-serif;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#task-list li span {
+    flex-grow: 1; 
+    margin-left: 10px; 
+}
